@@ -1,0 +1,32 @@
+{
+  "name": "Artem",
+  "age": 25,
+  "isMarried": true,
+  "lastJobs": ["AQA","QA"],
+  "wife": {
+    "name": "Alina",
+    "age": 25,
+    "isMarried": true,
+    "lastJobs": ["teacher"],
+    "wife": null,
+    "children": []
+  },
+  "children": [
+    {
+      "name": "Andriy",
+      "age": 2,
+      "isMarried": false,
+      "lastJobs": [],
+      "wife": null,
+      "children": []
+    },
+    {
+      "name": "Jon",
+      "age": 3,
+      "isMarried": false,
+      "lastJobs": [],
+      "wife": null,
+      "children": []
+    }
+  ]
+}
