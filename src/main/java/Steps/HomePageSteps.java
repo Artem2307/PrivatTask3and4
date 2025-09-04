@@ -9,7 +9,7 @@ public class HomePageSteps extends HomePage{
 
     public HomePageSteps openYouTubeAndSearchRandomQuery(int index) {
         Allure.step("Вкладка браузера називається “YouTube” і ввести в пошукову строку ->"
-                + number +"і клікнути на запропонований пошук і клікнути на елемент номер =" + index+1, () -> {
+                + number +"і клікнути на запропонований пошук і клікнути на елемент номер =" + index, () -> {
             checkTabContainsYouTube();
             sendDataSearchString(number);
             clickSeachCollectionIndex(index);
