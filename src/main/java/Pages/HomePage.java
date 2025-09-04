@@ -12,7 +12,6 @@ import static com.codeborne.selenide.Selenide.$$x;
 import static com.codeborne.selenide.Selenide.$x;
 
 public class HomePage {
-    private static final SelenideElement pageTitle = $x("//title");
     private static final SelenideElement search = $x("//input[@name=\"search_query\"]");
     private static final ElementsCollection seachCollection = $$x("//div[@role=\"presentation\"]");
     private static final SelenideElement editeButton = $x("//button[@id=\"button\"]//yt-icon[@class=\"style-scope ytd-topbar-menu-button-renderer\"]");
