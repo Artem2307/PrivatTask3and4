@@ -1,7 +1,7 @@
 package Steps;
 
 import io.qameta.allure.Allure;
-import pages.HomePage;
+import Pages.HomePage;
 
 import static Settings.GenerateRandomNumber.number;
 

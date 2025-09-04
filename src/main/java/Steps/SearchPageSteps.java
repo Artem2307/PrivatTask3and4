@@ -1,7 +1,7 @@
 package Steps;
 
 import io.qameta.allure.Allure;
-import pages.SearchPage;
+import Pages.SearchPage;
 
 public class SearchPageSteps extends SearchPage {
 

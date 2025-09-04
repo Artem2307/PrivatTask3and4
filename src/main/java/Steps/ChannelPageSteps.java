@@ -1,7 +1,7 @@
 package Steps;
 
 import io.qameta.allure.Allure;
-import pages.ChannelPage;
+import Pages.ChannelPage;
 
 
 public class ChannelPageSteps extends ChannelPage {
